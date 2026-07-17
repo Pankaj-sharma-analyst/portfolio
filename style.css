@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    background: #f7f9fc;
+    color: #222;
+}
+
+header {
+
+    background: white;
+    padding: 20px 10%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero {
+
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.hero h1 {
+
+    font-size: 55px;
+}
+
+.hero h3 {
+
+    color: #0077ff;
+    margin: 15px 0;
+}
+
+.hero p {
+
+    max-width: 700px;
+    margin: auto;
+}
+
+.buttons {
+
+    margin-top: 30px;
+}
+
+.btn {
+
+    display: inline-block;
+    background: #0077ff;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-outline {
+
+    background: transparent;
+    border: 2px solid #0077ff;
+    color: #0077ff;
+}
+
+section {
+
+    padding: 70px 10%;
+}
+
+h2 {
+
+    margin-bottom: 30px;
+}
+
+.skill-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 20px;
+}
+
+.card {
+
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.project-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(320px, 1fr));
+
+    gap: 30px;
+}
+
+.project-card {
+
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+
+    width: 100%;
+}
+
+.project-card h3 {
+
+    padding: 15px;
+}
+
+.project-card p {
+
+    padding: 0 15px 20px;
+}
+
+.experience-box {
+
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+footer {
+
+    text-align: center;
+    padding: 25px;
+    background: white;
+}
