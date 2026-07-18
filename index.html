@@ -2,17 +2,22 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Pankaj Sharma | Data Analyst</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -55,7 +60,9 @@
             <div class="buttons">
 
                 <a href="assets/resume.pdf" target="_blank" class="btn">
+
                     Download Resume
+
                 </a>
 
                 <a href="https://github.com/Pankaj-sharma-analyst"
@@ -117,104 +124,140 @@
 
         <div class="project-grid">
 
-<div class="project-card">
+            <!-- Blinkit -->
 
-    <img src="assets/blinkit-dashboard.png" alt="Blinkit Dashboard">
+            <div class="project-card">
 
-    <h3>Blinkit Sales Dashboard</h3>
+                <img src="assets/blinkit-dashboard.png" alt="Blinkit Dashboard">
 
-    <p>
-        Interactive sales and inventory dashboard
-        with KPI cards and outlet analysis.
-    </p>
+                <h3>Blinkit Sales Dashboard</h3>
 
-    <button class="toggle-btn" onclick="toggleInsights('blinkit-insights')">
-        View Insights
-    </button>
+                <p>
 
-    <div id="blinkit-insights" class="insight-box">
+                    Interactive sales and inventory dashboard with KPI cards and outlet analysis.
 
-        <ul>
+                </p>
 
-            <li>Tier 3 outlets generated the highest sales (472K).</li>
+                <button class="toggle-btn" onclick="toggleInsights('blinkit-insights')">
 
-            <li>Supermarket Type 1 recorded the highest sales.</li>
+                    View Insights
 
-            <li>Low-fat products generated more revenue.</li>
+                </button>
 
-            <li>Fruits and snacks were top-selling categories.</li>
+                <div id="blinkit-insights" class="insight-box">
 
-            <li>2018 had the highest outlet establishment growth.</li>
+                    <h4>Key Insights</h4>
 
-        </ul>
+                    <ul>
 
-    </div>
+                        <li>Tier 3 outlets generated the highest sales (472K).</li>
 
-</div>
-<div class="project-card">
-<img src="assets/hr-dashboard.png" alt="HR Dashboard">
+                        <li>Supermarket Type 1 recorded the highest sales.</li>
 
-<h3>HR Analytics Dashboard</h3>
+                        <li>Low-fat products generated more revenue.</li>
 
-<p>
-    Employee attrition analysis, workforce insights,
-    and department performance.
-</p>
-<button class="toggle-btn" onclick="toggleInsights('hr-insights')">
-    View Insights
-</button>
+                        <li>Fruits and snacks were top-selling categories.</li>
 
-<div id="hr-insights" class="insight-box" style="display: none;">
+                        <li>2018 had the highest outlet establishment growth.</li>
 
-    <h4>Key Insights</h4>
+                    </ul>
 
-    <ul>
+                </div>
 
-        <li>Overall employee attrition rate is 16.12%.</li>
+            </div>
 
-        <li>Sales department has the highest attrition rate at 20.63%.</li>
+            <!-- HR -->
 
-        <li>Employees aged 26–35 form the largest workforce segment.</li>
+            <div class="project-card">
 
-        <li>Sales Executive is the most common job role.</li>
+                <img src="assets/hr-dashboard.png" alt="HR Dashboard">
 
-        <li>Most employees have worked for 0–10 years.</li>
+                <h3>HR Analytics Dashboard</h3>
 
-        <li>Research & Development has the largest number of employees.</li>
+                <p>
 
-        <li>Life Sciences is the most common educational background.</li>
+                    Employee attrition analysis, workforce insights, and department performance.
 
-    </ul>
+                </p>
 
-</div>
-<div class="project-card">
-<button class="toggle-btn" onclick="toggleInsights('finance-insights')">
-    View Insights
-</button>
+                <button class="toggle-btn" onclick="toggleInsights('hr-insights')">
 
-<div id="finance-insights" class="insight-box" style="display: none;">
+                    View Insights
 
-    <h4>Key Insights</h4>
+                </button>
 
-    <ul>
+                <div id="hr-insights" class="insight-box">
 
-        <li>Paseo generated the highest sales at 33M.</li>
+                    <h4>Key Insights</h4>
 
-        <li>Government segment contributed the highest profit.</li>
+                    <ul>
 
-        <li>Germany recorded the highest profit margin.</li>
+                        <li>Overall employee attrition rate is 16.12%.</li>
 
-        <li>Monthly sales peaked near the end of the year.</li>
+                        <li>Sales department has the highest attrition rate at 20.63%.</li>
 
-        <li>Mexico generated the lowest sales among all countries.</li>
+                        <li>Employees aged 26–35 form the largest workforce segment.</li>
 
-        <li>Low discount products contributed the highest profit.</li>
+                        <li>Sales Executive is the most common job role.</li>
 
-        <li>Profit showed a declining trend across months.</li>
+                        <li>Most employees have worked for 0–10 years.</li>
 
-    </ul>
+                        <li>Research & Development has the largest number of employees.</li>
 
-</div>
+                        <li>Life Sciences is the most common educational background.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- Finance -->
+
+            <div class="project-card">
+
+                <img src="assets/finance-dashboard.png" alt="Finance Dashboard">
+
+                <h3>Finance Trend Dashboard</h3>
+
+                <p>
+
+                    Sales, profit, country analysis, and trend reporting.
+
+                </p>
+
+                <button class="toggle-btn" onclick="toggleInsights('finance-insights')">
+
+                    View Insights
+
+                </button>
+
+                <div id="finance-insights" class="insight-box">
+
+                    <h4>Key Insights</h4>
+
+                    <ul>
+
+                        <li>Paseo generated the highest sales at 33M.</li>
+
+                        <li>Government segment contributed the highest profit.</li>
+
+                        <li>Germany recorded the highest profit margin.</li>
+
+                        <li>Monthly sales peaked near the end of the year.</li>
+
+                        <li>Mexico generated the lowest sales among all countries.</li>
+
+                        <li>Low discount products contributed the highest profit.</li>
+
+                        <li>Profit showed a declining trend across months.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
         </div>
 
     </section>
@@ -229,8 +272,7 @@
 
             <p>
 
-                Built reports, monitored KPIs,
-                analyzed operational data,
+                Built reports, monitored KPIs, analyzed operational data,
                 and supported business decisions.
 
             </p>
@@ -243,8 +285,7 @@
 
             <p>
 
-                Worked with production data,
-                inventory analysis,
+                Worked with production data, inventory analysis,
                 and reporting systems.
 
             </p>
@@ -276,20 +317,11 @@
 
     <footer>
 
-        <p>
-
-            © 2026 Pankaj Sharma
-
-        </p>
+        <p>© 2026 Pankaj Sharma</p>
 
     </footer>
-<footer>
 
-    <p>© 2026 Pankaj Sharma</p>
-
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
